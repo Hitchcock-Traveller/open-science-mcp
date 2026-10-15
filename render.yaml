@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: open-science-mcp
+    runtime: node
+    buildCommand: npm install
+    startCommand: node src/server-streamable.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MCP_PORT
+        value: "10000"
+      - key: MCP_HOST
+        value: "0.0.0.0"
+    plan: free

@@ -1,0 +1,16 @@
+{
+  "name": "open-science-mcp",
+  "version": "1.0.0",
+  "description": "Open Science MCP Server - 8 academic research tools for Coze",
+  "main": "src/server-streamable.js",
+  "scripts": {
+    "start": "node src/server-streamable.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
