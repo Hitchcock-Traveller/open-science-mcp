@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "functions": {
+    "api/mcp.ts": {
+      "runtime": "@vercel/edge"
+    }
+  },
+  "routes": [
+    { "src": "/health", "dest": "/api/mcp" },
+    { "src": "/mcp", "dest": "/api/mcp" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "open-science-mcp-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@vercel/node": "^3.0.0"
+  }
+}
