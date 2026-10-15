@@ -1,0 +1,7 @@
+[build]
+  command = "npm install"
+  publish = "."
+
+[[edge_functions]]
+  path = "/mcp"
+  function = "mcp"
